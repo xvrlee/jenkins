@@ -5,7 +5,7 @@ pipeline
   {
     
     stage("test"){
-      agent "main"
+      agent {main}
       steps{
       
           echo "test"
