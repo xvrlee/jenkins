@@ -1,0 +1,13 @@
+Pipeline
+{
+
+  Stages
+  {
+    Stage("test"){
+      Step{
+        Echo "test"
+      }
+    }
+  }
+
+}
