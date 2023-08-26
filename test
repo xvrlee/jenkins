@@ -5,13 +5,12 @@ pipeline
   {
     
     stage("test"){
-      agent main
+      agent "main"
       steps{
-        
-        step{
+      
           echo "test"
-        }
-              }
+    
+      }
     }
   }
 
