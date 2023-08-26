@@ -1,11 +1,13 @@
-Pipeline
+pipeline
 {
 
-  Stages
+  stages
   {
-    Stage("test"){
-      Step{
-        Echo "test"
+    
+    stage("test"){
+      
+      step{
+        echo "test"
       }
     }
   }
